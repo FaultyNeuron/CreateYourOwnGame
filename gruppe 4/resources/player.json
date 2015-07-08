@@ -1,0 +1,16 @@
+{
+  "jump_power" : 7,
+  "walking_speed" : 3,
+  "flying_speed" : 0,
+  "enemy_throwback_power" : 5,
+  "hp" : 3,
+  "life" : 3,
+  "width": 50,
+  "height": 75,
+
+  "graphics" : {
+    "id" : "stick_man",
+    "width": 70,
+    "height": 75
+  }
+}

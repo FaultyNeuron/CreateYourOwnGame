@@ -1,0 +1,58 @@
+{
+
+  "seed" : "hello_ice_world",
+
+  "width" : 5000,
+  "height" : 600,
+
+  "gravity" : 0.1,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 100,
+  "horizontal_platform_distance" : 100,
+
+  "bg_colour" : [180, 180, 255],
+
+  "enemies" : [
+    {"id" : "standard_walking", "count" : 5},
+    {"id" : "standard_jumping", "count" : 5},
+    {"id" : "standard_boss", "count" : 1}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "cloud", "count" : 20}
+  ],
+
+  "platforms":[
+    {"id" : "icy_moving_horizontally", "count" : 20},
+    {"id" : "icy", "count" : 20}
+  ],
+
+  "goal" : {
+    "graphics" : {
+      "line_colour" : [0, 0, 0],
+      "bg_colour" : [219, 219, 9],
+      "width": 20,
+      "height": 20
+    },
+    "x" : 4950,
+    "y" : 50
+  },
+
+  "floor" : {
+    "gap_width" : 100,
+    "friction" : 0.01,
+    //"tile_width" : 500,
+    "graphics" : {
+//      "line_colour" : [0, 0, 0],
+//      "bg_colour" : [115, 191, 201],
+      "id" : "ice_platform",
+
+      "width" : 500,
+      "height" : 15
+    }
+  }
+}
