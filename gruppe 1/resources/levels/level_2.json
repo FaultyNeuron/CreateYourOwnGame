@@ -1,0 +1,66 @@
+{
+  "seed" : "hello_world",
+
+  "width" : 5000,
+  "height" : 600,
+
+  "gravity" : 0.1,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 180,
+  "horizontal_platform_distance" : 100,
+
+  "enemies" : [
+    //{"id" : "standard_walking", "count" : 4},
+    //{"id" : "standard_flying", "count" : 20},
+    {"id" : "jump_line", "count" : 10},
+	{"id" : "ghast", "count" : 10}
+    //{"id" : "standard_shooting", "count" : 1},
+    //{"id" : "standard_boss", "count" : 1}
+  ],
+
+  "collectibles" : [
+    {"id" : "coin", "count" : 30}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "cloud", "count" : 40},
+    {"id" : "simple_tree", "count" : 10}
+  ],
+
+  "platforms":[
+    {"id" : "gras_moving_horizontally", "count" : 10},
+    {"id" : "gras_moving_vertically", "count" : 10},
+    {"id" : "gras", "count" : 20}
+  ],
+
+
+  //"bg_colour" : [220, 220, 255],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "simple_goal",
+      "line_colour" : [0, 0, 0],
+      "bg_colour" : [219, 219, 9],
+      "width": 50,
+      "height": 40
+    },
+    "x" : 4950,
+    "y" : 50
+  },
+
+  "floor" : {
+    "gap_width" : 100,
+    "friction" : 0.8,
+    "graphics" : {
+      //"bg_colour" : [54, 201, 59],
+      //"line_colour" : [0, 0, 0],
+      "id" : "simple_floor",
+      "width" : 500,
+      "height" : 15
+    }
+  }
+}
