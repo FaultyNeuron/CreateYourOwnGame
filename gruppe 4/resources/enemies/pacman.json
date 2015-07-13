@@ -1,0 +1,19 @@
+{
+    "graphics" : {
+        "id" : "pacman",
+        "width" : 35,
+        "height" : 34
+    },
+    "hp" : 1,
+    "damage" : 2,
+    "walking_speed" : 1.5,
+    "flying_speed" : 0,
+
+    "gravity_factor" : 1,
+    "jump_power" : 0,
+    "jump_pause" : 0,
+    "drop" : [
+        {"id" : "coin", "probability" : 2},
+        {"id" : "gem", "probability" : 5}
+    ]
+}

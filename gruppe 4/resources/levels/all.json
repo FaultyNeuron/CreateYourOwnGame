@@ -1,0 +1,66 @@
+{
+  
+  "width" : 5000,
+  "height" : 600,
+
+  "gravity" : 0.1,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 125,
+  "horizontal_platform_distance" : 100,
+
+  "enemies" : [
+    {"id" : "spider_walking", "count" : 3},
+    {"id" : "gorilla", "count" : 3},
+    {"id" : "snake_jumping", "count" : 3}
+  ],
+
+  "collectibles" : [
+    {"id" : "coin", "count" : 40}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "cloud", "count" : 20},
+    {"id" : "bird_anim", "count" : 15},
+    {"id" : "bird2", "count" : 15},
+    {"id" : "bird3", "count" : 15},
+    {"id" : "bird4", "count" : 15},
+    {"id" : "leaf", "count" : 10},
+    {"id" : "leaf2", "count" : 10},
+    {"id" : "snake", "count" : 6},
+    {"id" : "tree", "count" : 5},
+    {"id" : "tree2", "count" : 5}
+  ],
+
+  "platforms":[
+    {"id" : "gras", "count" : 40},
+    {"id" : "cloud", "count" : 10}
+  ],
+
+
+  "bg_colour" : [180, 250, 100],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "goal_flag",
+      "width": 50,
+      "height": 135
+    },
+    "x" : 4950,
+    "y" : 50
+  },
+
+  "floor" : {
+    "gap_width" : 80,
+    "friction" : 0.8,
+    "graphics" : {
+      "bg_colour" : [50, 50, 50],
+      "line_colour" : [100, 100, 0],
+      "width" : 500,
+      "height" : 15
+    }
+  }
+}

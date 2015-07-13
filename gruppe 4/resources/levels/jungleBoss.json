@@ -1,0 +1,66 @@
+{
+  
+  "width" : 4000,
+  "height" : 600,
+
+  "gravity" : 0.1,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 150,
+  "horizontal_platform_distance" : 30,
+
+  "enemies" : [
+    {"id" : "gorilla_boss", "count" : 1}
+  ],
+
+  "collectibles" : [
+    {"id" : "coin", "count" : 40}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "cloud", "count" : 10},
+    {"id" : "bird_anim", "count" : 15},
+    {"id" : "bird2", "count" : 15},
+    {"id" : "bird3", "count" : 15},
+    {"id" : "bird4", "count" : 15},
+    {"id" : "volcano", "count" : 2},
+    {"id" : "leaf", "count" : 20},
+    {"id" : "leaf2", "count" : 20},
+    {"id" : "snake", "count" : 12},
+    {"id" : "tree", "count" : 7},
+    {"id" : "tree2", "count" : 4}
+  ],
+
+  "platforms":[
+    {"id" : "gras", "count" : 20},
+    {"id" : "gras2", "count" : 20},
+    {"id" : "cloud", "count" : 10}
+  ],
+
+
+  "bg_colour" : [160, 250, 80],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "goal_jungle",
+      "width": 59,
+      "height": 74
+    },
+    "x" : 3950,
+    "y" : 50
+  },
+
+  "floor" : {
+    "gap_width" : 50,
+    "friction" : 0.8,
+    "graphics" : {
+      "bg_colour" : [50, 50, 50],
+      "line_colour" : [100, 100, 0],
+      "width" : 500,
+      "height" : 15
+    }
+  }
+}

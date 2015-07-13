@@ -1,0 +1,10 @@
+{
+    "graphics" : {
+        "id" : "bg_bird_anim",
+        "width" : 20,
+        "height" : 8
+    },
+
+    "y_range" : [100, 1200],
+    "distance_factor" : 0.8
+}

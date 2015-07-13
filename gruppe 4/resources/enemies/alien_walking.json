@@ -1,10 +1,8 @@
 {
     "graphics" : {
-        "id" : "alien_yellow",
-        //"line_colour" : [0, 0, 0],
-        //"bg_colour" : [64, 179, 118],
+        "id" : "alien",
         "width" : 60,
-        "height" : 80
+        "height" : 95
     },
     "hp" : 1,
     "damage" : 1,
@@ -16,11 +14,6 @@
     "jump_pause" : 0,
     "drop" : [
         {"id" : "coin", "probability" : 7},
-        {"id" : "heart", "probability" : 4},
-        {"id" : "life", "probability" : 1},
-        {"id" : "minus_gravity", "probability" : 1},
-        {"id" : "plus_gravity", "probability" : 1},
-        {"id" : "speed_boost", "probability" : 1},
-        {"id" : "star", "probability" : 1}
+        {"id" : "speed_boost", "probability" : 2}
     ]
 }

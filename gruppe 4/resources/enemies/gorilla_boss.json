@@ -1,0 +1,16 @@
+{
+    "graphics" : {
+        "id" : "gorilla",
+        "width" : 120,
+        "height" : 170
+    },
+    "hp" : 5,
+    "damage" : 2,
+    "walking_speed" : 0.3,
+    "jump_power" : 9,
+    "jump_pause" : 200,
+    "drop" : [
+        {"id" : "speed_boost", "probability" : 1},
+        {"id" : "star", "probability" : 1}
+    ]
+}

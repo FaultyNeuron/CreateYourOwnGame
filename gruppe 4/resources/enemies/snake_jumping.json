@@ -1,0 +1,20 @@
+{
+
+
+    "graphics" : {
+        "id" : "snake",
+        "width" : 76,
+        "height" : 50
+    },
+    "hp" : 1,
+    "damage" : 2,
+    "walking_speed" : 0,
+    "jump_power" : 5,
+    "jump_pause" : 60,
+    "drop" : [
+        {"id" : "coin", "probability" : 5},
+        {"id" : "heart", "probability" : 3},
+        {"id" : "speed_boost", "probability" : 1},
+        {"id" : "gem", "probability" : 5}
+    ]
+}

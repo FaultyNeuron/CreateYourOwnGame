@@ -1,0 +1,11 @@
+{
+    "graphics" : {
+        "id" : "platform_cheese",
+        "width" : 250,
+        "height" : 30
+    },
+    "friction" : 0.3,
+    "speed" : 0.8,
+    "delta_x" : 0,
+    "delta_y" : 0
+}
