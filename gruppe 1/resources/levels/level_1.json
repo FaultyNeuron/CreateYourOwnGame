@@ -12,6 +12,8 @@
 
   "vertical_platform_distance" : 200,
   "horizontal_platform_distance" : 100,
+  
+  "bg_colour" : [235, 235, 255],
 
   "enemies" : [
     //{"id" : "standard_walking", "count" : 4},
@@ -44,9 +46,6 @@
     {"id" : "cloud_vertically", "count" : 4},
     {"id" : "cloud_horizontal", "count" : 12}
   ],
-
-
-  //"bg_colour" : [220, 220, 255],
 
   "goal" : {
     "graphics" : {

@@ -42,7 +42,7 @@
   ],
 
 
-  //"bg_colour" : [220, 220, 255],
+  "bg_colour" : [200, 200, 255],
 
   "goal" : {
     "graphics" : {
