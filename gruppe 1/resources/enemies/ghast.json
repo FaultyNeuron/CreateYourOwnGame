@@ -1,7 +1,8 @@
 {
     "graphics" : {
-        "line_colour" : [0, 0, 0],
-        "bg_colour" : [200, 200, 200],
+        //"line_colour" : [0, 0, 0],
+        //"bg_colour" : [200, 200, 200],
+		"id": "ghast",
         "width" : 50,
         "height" : 50
     },
