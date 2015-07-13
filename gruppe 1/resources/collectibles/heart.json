@@ -1,8 +1,8 @@
 {
     "graphics": {
         "id": "heart",
-        "width" : 30,
-        "height" : 30
+        "width" : 25,
+        "height" : 25
     },
     "gravity_factor" : 0.5,
     "bounciness" : 0.8,

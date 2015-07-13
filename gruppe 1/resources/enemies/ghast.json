@@ -3,19 +3,39 @@
         //"line_colour" : [0, 0, 0],
         //"bg_colour" : [200, 200, 200],
 		"id": "ghast",
-        "width" : 50,
-        "height" : 50
+        "width" : 120,
+        "height" : 120
     },
     "hp" : 1,
     "damage" : 1,
     "walking_speed" : 0,
-    "flying_speed" : 2,
+    "flying_speed" : 0.5,
     "gravity_factor" : 0,
-    "jump_power" : 0,
+    "jump_power" : 3,
     "jump_pause" : 0,
     "drop" : [
-        {"id" : "coin", "probability" : 5},
-        {"id" : "heart", "probability" : 3},
-        {"id" : "spring", "probability" : 1}
+        {"id" : "big_heart", "probability" : 4},
+        {"id" : "ice_flower", "probability" : 4},
+        {"id" : "spring", "probability" : 2}
+    ],
+    "active_effects" : [
+        {"id":"gun", "projectile":{
+            "graphics": {
+                "id": "fire",
+                "width" : 30,
+                "height" : 30
+            },
+            "bounciness" : 1,
+            "friction_coefficient" : 0,
+            "cool_down" : 500,
+            "shooting_x" : 2,
+            "shooting_y" : -2,
+//            "effect_duration" : 300,
+            "gravity_factor" : 0,
+            "effects" : [
+                //                {"id":"speed", "factor" : 0.25}
+                {"id":"hp", "value" : -1}
+            ]
+        }}
     ]
 }

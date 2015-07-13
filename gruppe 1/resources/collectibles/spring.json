@@ -1,12 +1,12 @@
 {
     "graphics": {
-        "id": "spring_item",
+        "id": "spring",
         "width" : 30,
-        "height" : 30
+        "height" : 40
     },
-    "bounciness" : 0.5,
+    "bounciness" : 1,
     "effect_duration" : 1500,
     "effects" : [
-        {"id":"bounciness", factor:"1"}
+        {"id":"bounciness", "factor":"0.9"}
     ]
 }

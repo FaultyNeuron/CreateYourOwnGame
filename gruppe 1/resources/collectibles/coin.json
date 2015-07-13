@@ -1,8 +1,8 @@
 {
     "graphics": {
-        "id": "simple_coin",
-        "width" : 30,
-        "height" : 30
+        "id": "coin",
+        "width" : 20,
+        "height" : 20
     },
     "bounciness" : 0.5,
     "effects" : [

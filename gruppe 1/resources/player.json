@@ -1,5 +1,5 @@
 {
-  "jump_power" : 7,
+  "jump_power" : 8,
   "walking_speed" : 3,
   "flying_speed" : 0,
   "enemy_throwback_power" : 5,
@@ -9,7 +9,7 @@
   "height": 75,
 
   "graphics" : {
-    "id" : "roboter",
+    "id" : "player",
     "width": 70,
     "height": 75
   }
