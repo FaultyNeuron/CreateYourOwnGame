@@ -1,0 +1,12 @@
+{
+    "graphics" : {
+        "id" : "bg_cloud_trap",
+        //"line_colour" : [0, 0, 0],
+        //"bg_colour" : [64, 179, 118],
+        "width" : 139,
+        "height" : 55
+    },
+
+    "y_range" : [100, 1500],
+    "distance_factor" : 0.95
+}

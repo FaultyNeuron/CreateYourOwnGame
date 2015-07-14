@@ -1,0 +1,11 @@
+{
+    "graphics" : {
+        "id" : "bg_cloud_trap",
+        "width" : 140,
+        "height" : 50
+    },
+    "friction" : 0.3,
+    "speed" : 0.8,
+    "delta_x" : 0,
+    "delta_y" : 0
+}
