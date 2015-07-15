@@ -1,0 +1,11 @@
+{
+    "graphics": {
+        "id": "simple_coin",
+        "width" : 45,
+        "height" : 45
+    },
+    "bounciness" : 0.5,
+	"effects" : [
+        {"id":"hp", "value" : -1}
+    ]
+}

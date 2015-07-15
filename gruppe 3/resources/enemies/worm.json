@@ -1,0 +1,24 @@
+{
+    "graphics" : {
+        "id" : "worm",
+        //"line_colour" : [0, 0, 0],
+        //"bg_colour" : [64, 179, 118],
+        "width" : 50,
+        "height" : 50
+    },
+    "hp" : 1,
+    "damage" : 1,
+    "walking_speed" : 0.3,
+    "flying_speed" : 0,
+    "gravity_factor" : 0,
+    "jump_power" : 0,
+    "jump_pause" : 0,
+    "drop" : [
+        {"id" : "apple_red", "probability" : 7},
+        {"id" : "apple_green", "probability" : 7},
+        {"id" : "heart", "probability" : 4},
+        {"id" : "fire_flower", "probability" : 1},
+        {"id" : "ice_flower", "probability" : 1},
+        {"id" : "rocket_shoe", "probability" : 1},
+    ]
+}

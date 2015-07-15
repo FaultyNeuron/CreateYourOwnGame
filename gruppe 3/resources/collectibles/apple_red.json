@@ -1,0 +1,12 @@
+{
+    "graphics": {
+        "id": "fire_flower",
+        "width" : 30,
+        "height" : 30
+    },
+    "bounciness" : 0.5,
+    "effect_duration" : 750,
+    "effects" : [
+		{"id" : "hp", "value" : -1}
+	]
+}

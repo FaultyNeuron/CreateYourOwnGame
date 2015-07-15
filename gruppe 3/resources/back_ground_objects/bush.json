@@ -1,0 +1,10 @@
+{
+    "graphics" : {
+        "id" : "bush",
+        "width" : 100,
+        "height" : 200
+    },
+
+    "y_range" : [100, 100],
+    "distance_factor" : 1
+}

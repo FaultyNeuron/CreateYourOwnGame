@@ -9,7 +9,7 @@
     "effects" : [
         {"id":"gun", "projectile":{
             "graphics": {
-                "id": "ice_ball",
+                //"id": "ice_ball",
                 "width" : 30,
                 "height" : 30
             },

@@ -1,12 +1,11 @@
 {
     "graphics": {
-        "id": "heart",
+        "id": "life",
         "width" : 30,
         "height" : 30
     },
     "gravity_factor" : 0.5,
-    "bounciness" : 0.8,
     "effects" : [
-        {"id":"hp", "value" : 1}
+        {"id":"life", "value" : 1}
     ]
 }
