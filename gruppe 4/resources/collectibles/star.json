@@ -1,8 +1,8 @@
 {
     "graphics": {
         "id": "star",
-        "width" : 30,
-        "height" : 30
+        "width" : 27,
+        "height" : 21
     },
     "bounciness" : 0.9,
     "gravity_factor" : 0.5,

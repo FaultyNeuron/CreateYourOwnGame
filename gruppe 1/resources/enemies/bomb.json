@@ -1,0 +1,21 @@
+{
+    "graphics" : {
+        //"line_colour" : [0, 0, 0],
+        //"bg_colour" : [200, 200, 200],
+		"id": "bomb",
+        "width" : 50,
+        "height" : 50
+    },
+    "hp" : 1,
+    "damage" : 1,
+    "walking_speed" : 1,
+    "flying_speed" : 0,
+    "jump_power" : 0,
+    "jump_pause" : 0,
+    "drop" : [
+        {"id" : "coin", "probability" : 5},
+        {"id" : "heart", "probability" : 3},
+        {"id" : "ice_flower", "probability" : 4},
+        {"id" : "spring", "probability" : 2}
+    ]
+}

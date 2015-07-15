@@ -1,0 +1,70 @@
+{
+  "seed" : "three",
+
+  "width" : 2000,
+  "height" : 4000,
+
+  "gravity" : 0.1,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 200,
+  "horizontal_platform_distance" : 100,
+
+  "enemies" : [
+    //{"id" : "standard_walking", "count" : 4},
+    //{"id" : "standard_flying", "count" : 20},
+    {"id" : "bomb", "count" : 20},
+	{"id" : "box", "count" : 10},
+    {"id" : "ghast", "count" : 10}
+    //{"id" : "standard_shooting", "count" : 1},
+    //{"id" : "standard_boss", "count" : 1}
+  ],
+
+  "collectibles" : [
+    {"id" : "coin", "count" : 30},
+    {"id" : "heart", "count" : 5}/*,
+    {"id" : "ice_flower", "count" : 10},
+    {"id" : "spring", "count" : 50},
+    {"id" : "heart", "count" : 10}*/
+  ],
+
+  "back_ground_objects" : [
+      {"id" : "plane", "count" : 3}
+  ],
+
+  "platforms":[
+    {"id" : "cloud", "count" : 30},
+    {"id" : "cloud_vertically", "count" : 6},
+    {"id" : "cloud_horizontal", "count" : 15}
+  ],
+
+
+  "bg_colour" : [200, 200, 255],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "goal",
+      //      "line_colour" : [0, 0, 0],
+      //      "bg_colour" : [219, 219, 9],
+      "width": 80,
+      "height": 120
+    },
+    "x" : 1000,
+    "y" : 3880
+  },
+
+  "floor" : {
+    "gap_width" : 100,
+    "friction" : 0.01,
+    "graphics" : {
+      //"bg_colour" : [54, 201, 59],
+      //"line_colour" : [0, 0, 0],
+      "id" : "platform_blue",
+      "width" : 600,
+      "height" : 50
+    }
+  }
+}

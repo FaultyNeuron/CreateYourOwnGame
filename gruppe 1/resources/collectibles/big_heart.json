@@ -1,0 +1,12 @@
+{
+    "graphics": {
+        "id": "heart",
+        "width" : 50,
+        "height" : 50
+    },
+    "gravity_factor" : 0.75,
+    "bounciness" : 0.5,
+    "effects" : [
+        {"id":"hp", "value" : 3}
+    ]
+}

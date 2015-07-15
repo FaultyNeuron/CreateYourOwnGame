@@ -1,0 +1,13 @@
+{
+    "graphics": {
+        "id": "gem",
+        "width" : 30,
+        "height" : 40
+    },
+    "bounciness" : 0.5,
+    "effects" : [
+        {"id":"coins", "value" : 5}
+//        {"id":"speed", "factor" : 4},
+//        {"id":"gravity", "factor" : 0.1}
+    ]
+}

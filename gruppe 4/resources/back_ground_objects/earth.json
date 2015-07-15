@@ -1,10 +1,10 @@
 {
     "graphics" : {
-        "id" : "earth",
+        "id" : "bg_earth",
         //"line_colour" : [0, 0, 0],
         //"bg_colour" : [64, 179, 118],
-        "width" : 800,
-        "height" : 800
+        "width" : 1000,
+        "height" : 1000
     },
 
     "y_range" : [3000, 3000],

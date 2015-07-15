@@ -1,0 +1,11 @@
+{
+    "graphics" : {
+        "id" : "platform_cloud",
+        "width" : 150,
+        "height" : 60
+    },
+    "friction" : 0.1,
+    "speed" : 0.8,
+    "delta_x" : 0,
+    "delta_y" : 150
+}

@@ -1,12 +1,10 @@
 {
     "graphics" : {
-        "id" : "tree",
-        //"line_colour" : [0, 0, 0],
-        //"bg_colour" : [64, 179, 118],
+        "id" : "bg_tree",
         "width" : 200,
-        "height" : 200
+        "height" : 400
     },
 
-    "y_range" : [100, 100],
+    "y_range" : [200, 200],
     "distance_factor" : 1
 }

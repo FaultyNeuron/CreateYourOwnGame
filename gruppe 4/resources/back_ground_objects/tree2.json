@@ -1,0 +1,10 @@
+{
+    "graphics" : {
+        "id" : "bg_tree2",
+        "width" : 200,
+        "height" : 330
+    },
+
+    "y_range" : [165, 165],
+    "distance_factor" : 1
+}

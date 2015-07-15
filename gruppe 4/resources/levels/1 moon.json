@@ -1,0 +1,60 @@
+{
+  
+  "width" : 5000,
+  "height" : 600,
+
+  "gravity" : 0.07,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 160,
+  "horizontal_platform_distance" : 80,
+
+  "enemies" : [
+    {"id" : "alien_jumping", "count" : 3},
+    {"id" : "alien_walking", "count" : 3},
+    {"id" : "evil_enemy", "count" : 3},
+    {"id" : "ufo", "count" : 3},
+    {"id" : "robo_walking", "count" : 3}
+  ],
+
+  "collectibles" : [
+    {"id" : "coin", "count" : 40}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "star", "count" : 13},
+    {"id" : "earth", "count" : 1}
+  ],
+
+  "platforms":[
+    {"id" : "moon", "count" : 40},
+    {"id" : "moon_moving", "count" : 10}
+  ],
+
+
+  "bg_colour" : [10, 10, 10],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "goal_flag",
+      "width": 50,
+      "height": 135
+    },
+    "x" : 4950,
+    "y" : 50
+  },
+
+  "floor" : {
+    "gap_width" : 100,
+    "friction" : 0.8,
+    "graphics" : {
+      "bg_colour" : [100, 100, 100],
+      "line_colour" : [50, 50, 50],
+      "width" : 500,
+      "height" : 15
+    }
+  }
+}

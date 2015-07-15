@@ -1,0 +1,78 @@
+{
+  
+  "width" : 10000,
+  "height" : 1200,
+
+  "gravity" : 0.1,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 120,
+  "horizontal_platform_distance" : 55,
+
+  "enemies" : [
+    {"id" : "alien_jumping", "count" : 2},
+    {"id" : "alien_walking", "count" : 2},
+    {"id" : "evil_enemy", "count" : 2},
+    {"id" : "gorilla", "count" : 2},
+    {"id" : "gorilla_boss", "count" : 1},
+    {"id" : "pacman", "count" : 2},
+    {"id" : "robo_walking", "count" : 2},
+    {"id" : "snake_jumping", "count" : 2},
+    {"id" : "spider_walking", "count" : 2},
+    {"id" : "ufo", "count" : 2}
+  ],
+
+  "collectibles" : [
+    {"id" : "coin", "count" : 40}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "volcano", "count" : 1},
+    {"id" : "cloud", "count" : 20},
+    {"id" : "bird_anim", "count" : 15},
+    {"id" : "bird2", "count" : 15},
+    {"id" : "bird3", "count" : 15},
+    {"id" : "bird4", "count" : 15},
+    {"id" : "leaf", "count" : 10},
+    {"id" : "leaf2", "count" : 10},
+    {"id" : "snake", "count" : 6},
+    {"id" : "tree", "count" : 5},
+    {"id" : "tree2", "count" : 5},
+    {"id" : "cloud_trap", "count" : 20}
+  ],
+
+  "platforms":[
+    {"id" : "gras", "count" : 40},
+    {"id" : "cloud", "count" : 10},
+    {"id" : "gras2", "count" : 20},
+    {"id" : "cheese", "count" : 20},
+    {"id" : "cloud_trap", "count" : 20}
+  ],
+
+
+  "bg_colour" : [250, 250, 250],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "goal_flag",
+      "width": 50,
+      "height": 135
+    },
+    "x" : 4950,
+    "y" : 50
+  },
+
+  "floor" : {
+    "gap_width" : 80,
+    "friction" : 0.8,
+    "graphics" : {
+      "bg_colour" : [50, 50, 50],
+      "line_colour" : [100, 100, 0],
+      "width" : 500,
+      "height" : 15
+    }
+  }
+}

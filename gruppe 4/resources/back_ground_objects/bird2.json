@@ -1,0 +1,10 @@
+{
+    "graphics" : {
+        "id" : "bg_bird2",
+        "width" : 17,
+        "height" : 11
+    },
+
+    "y_range" : [100, 1200],
+    "distance_factor" : 0.8
+}

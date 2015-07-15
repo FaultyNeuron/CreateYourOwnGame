@@ -1,0 +1,21 @@
+{
+    "graphics" : {
+        "id" : "robo",
+        "width" : 72,
+        "height" : 97
+    },
+    "hp" : 3,
+    "damage" : 2,
+    "walking_speed" : 0.6,
+    "flying_speed" : 0,
+
+    "gravity_factor" : 1,
+    "jump_power" : 0,
+    "jump_pause" : 0,
+    "drop" : [
+        {"id" : "coin", "probability" : 7},
+        {"id" : "heart", "probability" : 2},
+        {"id" : "gem", "probability" : 2},
+        {"id" : "speed_boost", "probability" : 2}
+    ]
+}

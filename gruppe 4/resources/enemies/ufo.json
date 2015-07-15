@@ -1,0 +1,20 @@
+{
+    "graphics" : {
+        "id" : "ufo",
+        "width" : 60,
+        "height" : 57
+    },
+    "hp" : 2,
+    "damage" : 1,
+    "walking_speed" : 0,
+    "flying_speed" : 2,
+    "gravity_factor" : 0,
+    "jump_power" : 0,
+    "jump_pause" : 0,
+    "drop" : [
+        {"id" : "coin", "probability" : 5},
+        {"id" : "heart", "probability" : 3},
+        {"id" : "speed_boost", "probability" : 1},
+        {"id" : "star", "probability" : 1}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "graphics": {
+        "id": "spring",
+        "width" : 30,
+        "height" : 40
+    },
+    "bounciness" : 1,
+    "effect_duration" : 1500,
+    "effects" : [
+        {"id":"bounciness", "factor":"0.9"}
+    ]
+}

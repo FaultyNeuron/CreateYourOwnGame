@@ -1,0 +1,18 @@
+{
+    "graphics" : {
+        "id" : "spider",
+        "width" : 32,
+        "height" : 20
+    },
+    "hp" : 1,
+    "damage" : 1,
+    "walking_speed" : 1,
+    "flying_speed" : 0,
+
+    "gravity_factor" : 1,
+    "jump_power" : 0,
+    "jump_pause" : 0,
+    "drop" : [
+        {"id" : "coin", "probability" : 7}
+    ]
+}

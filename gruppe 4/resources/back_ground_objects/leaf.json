@@ -1,0 +1,10 @@
+{
+    "graphics" : {
+        "id" : "bg_leaf1",
+        "width" : 13,
+        "height" : 7
+    },
+
+    "y_range" : [9, 12],
+    "distance_factor" : 1
+}

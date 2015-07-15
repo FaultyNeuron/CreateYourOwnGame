@@ -1,0 +1,12 @@
+{
+    "graphics" : {
+        "line_colour" : [0, 0, 0],
+        "bg_colour" : [128, 128, 128],
+        "width" : 200,
+        "height" : 30
+    },
+    "friction" : 0.3,
+    "speed" : 0.8,
+    "delta_x" : 200,
+    "delta_y" : 400
+}

@@ -1,15 +1,15 @@
 {
     "graphics": {
-        "id": "ice_flower",
+        "id": "flower",
         "width" : 30,
-        "height" : 30
+        "height" : 60
     },
     "bounciness" : 0.5,
     "effect_duration" : 1250,
     "effects" : [
         {"id":"gun", "projectile":{
             "graphics": {
-                "id": "ice_ball",
+                "id": "ice",
                 "width" : 30,
                 "height" : 30
             },
