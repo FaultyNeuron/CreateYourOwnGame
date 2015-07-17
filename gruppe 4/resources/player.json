@@ -1,5 +1,5 @@
 {
-  "jump_power" : 6,
+  "jump_power" : 7,
   "walking_speed" : 2.5,
   "flying_speed" : 0,
   "enemy_throwback_power" : 5,

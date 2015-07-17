@@ -57,10 +57,9 @@
     "gap_width" : 50,
     "friction" : 0.8,
     "graphics" : {
-      "bg_colour" : [50, 50, 50],
-      "line_colour" : [100, 100, 0],
+	  "id" : "platform_gras",
       "width" : 500,
-      "height" : 15
+      "height" : 40
     }
   }
 }
