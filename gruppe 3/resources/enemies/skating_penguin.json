@@ -4,11 +4,11 @@
         //"line_colour" : [0, 0, 0],
         //"bg_colour" : [64, 179, 118],
         "width" : 60,
-        "height" : 80
+        "height" : 90
     },
     "hp" : 1,
     "damage" : 1,
-    "walking_speed" : 2,
+    "walking_speed" : 3,
     "flying_speed" : 0,
     "gravity_factor" : 1,
     "jump_power" : 0,

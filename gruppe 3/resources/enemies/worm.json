@@ -6,8 +6,8 @@
         "width" : 50,
         "height" : 50
     },
-    "hp" : 10,
-    "damage" : 3,
+    "hp" : 5,
+    "damage" : 1,
     "walking_speed" : 0.3,
     "flying_speed" : 0,
     "gravity_factor" : 3,

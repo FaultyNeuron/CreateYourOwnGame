@@ -14,11 +14,11 @@
     "jump_power" : 0,
     "jump_pause" : 0,
     "drop" : [
-        {"id" : "apple_green", "probability" : 50},
+        {"id" : "apple_green", "probability" : 30},
         {"id" : "apple_red", "probability" : 50},
-        {"id" : "heart", "probability" : 50},
-        {"id" : "fire_flower", "probability" : 50},
-        {"id" : "ice_flower", "probability" : 50},
-        {"id" : "rocket_shoe", "probability" : 50}
+        {"id" : "heart", "probability" : 5},
+        {"id" : "fire_flower", "probability" : 10},
+        {"id" : "ice_flower", "probability" : 10},
+        {"id" : "rocket_shoe", "probability" : 10}
     ]
 }

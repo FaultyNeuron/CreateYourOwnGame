@@ -1,8 +1,8 @@
 {
     "graphics" : {
         "id" : "platform",
-        "width" : 200,
-        "height" : 20
+        "width" : 300,
+        "height" : 30
     },
     "friction" : 0.5,
     "speed" : 0.8,

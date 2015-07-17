@@ -6,7 +6,7 @@
         "width" : 50,
         "height" : 50
     },
-    "hp" : 7,
+    "hp" : 4,
     "damage" : 1,
     "walking_speed" : 0.5,
     "jump_power" : 0,

@@ -3,14 +3,14 @@
   "walking_speed" : 3,
   "flying_speed" : 0,
   "enemy_throwback_power" : 5,
-  "hp" : 300,
-  "life" : 300,
+  "hp" : 5,
+  "life" : 5,
   "width": 50,
   "height": 75,
 
   "graphics" : {
     "id" : "player",
-    "width": 70,
+    "width": 58,
     "height": 75
   }
 }

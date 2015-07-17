@@ -18,8 +18,8 @@
   "enemies" : [
     //{"id" : "standard_walking", "count" : 4},
     //{"id" : "standard_flying", "count" : 20},
-    {"id" : "bomb", "count" : 8},
-    {"id" : "box", "count" : 6}
+    {"id" : "bomb", "count" : 6},
+    {"id" : "box", "count" : 4}
 //	{"id" : "ghast", "count" : 3}
     //{"id" : "standard_shooting", "count" : 1},
     //{"id" : "standard_boss", "count" : 1}
@@ -50,8 +50,6 @@
   "goal" : {
     "graphics" : {
       "id" : "goal",
-//      "line_colour" : [0, 0, 0],
-//      "bg_colour" : [219, 219, 9],
       "width": 80,
       "height": 120
     },

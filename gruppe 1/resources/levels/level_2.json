@@ -19,7 +19,7 @@
     //{"id" : "standard_walking", "count" : 4},
     //{"id" : "standard_flying", "count" : 20},
 	{"id" : "box", "count" : 5},
-    {"id" : "bomb", "count" : 10},
+    {"id" : "bomb", "count" : 7},
     {"id" : "ghast", "count" : 3}
     //{"id" : "standard_shooting", "count" : 1},
     //{"id" : "standard_boss", "count" : 1}

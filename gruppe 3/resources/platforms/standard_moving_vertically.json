@@ -1,9 +1,8 @@
 {
-
     "graphics" : {
-        "line_colour" : [0, 0, 0],
+        "id" : "platform",
         "width" : 200,
-        "height" : 20
+        "height" : 30
     },
     "friction" : 0.8,
     "speed" : 1,

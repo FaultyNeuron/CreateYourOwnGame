@@ -8,14 +8,14 @@
         "width" : 100,
         "height" : 60
     },
-    "hp" : 10,
+    "hp" : 5,
     "damage" : 0,
     "walking_speed" : 0,
     "jump_power" : 0,
     "jump_pause" : 0,
     "drop" : [
         {"id" : "apple_red", "probability" : 7},
-        {"id" : "apple_green", "probability" : 7},
+        {"id" : "apple_green", "probability" : 2},
         {"id" : "heart", "probability" : 4},
         {"id" : "fire_flower", "probability" : 1},
         {"id" : "ice_flower", "probability" : 1},
@@ -33,7 +33,7 @@
             "friction_coefficient" : 0,
             "cool_down" : 80,
             "shooting_x" : 4,
-            "shooting_y" : -4,
+            "shooting_y" : 4,
             //            "effect_duration" : 300,
             "gravity_factor" : 0.4,
             "effects" : [

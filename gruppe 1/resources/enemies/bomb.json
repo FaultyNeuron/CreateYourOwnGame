@@ -8,7 +8,7 @@
     },
     "hp" : 1,
     "damage" : 1,
-    "walking_speed" : 1,
+    "walking_speed" : 0.5,
     "flying_speed" : 0,
     "jump_power" : 0,
     "jump_pause" : 0,

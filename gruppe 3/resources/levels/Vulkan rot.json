@@ -1,0 +1,68 @@
+{
+  "seed" : "vulcano_world",
+  
+  "width" : 5000,
+  "height" : 600,
+
+  "gravity" : 0.08,
+  "airFriction" : 0.001,
+
+  "player_x" : 50,
+  "player_y" : 50,
+
+  "vertical_platform_distance" : 175,
+  "horizontal_platform_distance" : 100,
+  
+  "bg_colour" : [255, 215, 235],
+
+  "enemies" : [
+    {"id" : "worm", "count" : 3},
+    {"id" : "fire_ball_canon", "count" : 3},
+    {"id" : "brown_square", "count" : 4},
+    {"id" : "skating_penguin", "count" : 3},
+    {"id" : "spike_dog", "count" : 4}
+  ],
+
+  "collectibles" : [
+    {"id" : "apple_red", "count" : 10},
+    //{"id" : "apple_green", "count" : 30},
+    //{"id" : "fire_flower", "count" : 30},
+    //{"id" : "ice_flower", "count" : 30},
+    //{"id" : "rocket_shoe", "count" : 30},
+    {"id" : "heart", "count" : 1}
+  ],
+
+  "back_ground_objects" : [
+    {"id" : "cloud1", "count" : 7},
+	{"id" : "cloud2", "count" : 7},
+	{"id" : "cloud3", "count" : 7},
+	{"id" : "volcano_red", "count" : 1},
+	{"id" : "bush", "count" : 7}
+  ],
+
+  "platforms":[
+    {"id" : "platform", "count" : 20},
+	{"id" : "standard_moving_horizontally", "count" : 7},
+	{"id" : "standard_moving_vertically", "count" : 7}
+  ],
+
+  "goal" : {
+    "graphics" : {
+      "id" : "goal",
+      "width": 80,
+      "height": 120
+    },
+    "x" : 4950,
+    "y" : 75
+  },
+
+  "floor" : {
+    "gap_width" : 100,
+    "friction" : 0.8,
+    "graphics" : {
+      "id" : "platform",
+      "width" : 750,
+      "height" : 50
+    }
+  }
+}

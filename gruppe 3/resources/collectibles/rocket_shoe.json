@@ -6,8 +6,8 @@
     },
     "bounciness" : 0.9,
     "gravity_factor" : 0.3,
-    "effect_duration" : 750,
+    "effect_duration" : 1000,
     "effects" : [
-        {"id":"speed", "factor" : 4}
+        {"id":"speed", "factor" : 2}
     ]
 }
