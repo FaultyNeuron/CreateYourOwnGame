@@ -1,10 +1,10 @@
 {
   "seed" : "vulcano_world",
   
-  "width" : 20000,
+  "width" : 15000,
   "height" : 600,
 
-  "gravity" : 0.1,
+  "gravity" : 0.08,
   "airFriction" : 0.001,
 
   "player_x" : 50,
@@ -13,45 +13,46 @@
   "vertical_platform_distance" : 125,
   "horizontal_platform_distance" : 100,
 
+
   "enemies" : [
-    //{"id" : "alien_goomba", "count" : 10},
-	//{"id" : "brown_square", "count" : 10},
-	//{"id" : "fire_ball_canon", "count" : 10},
-	//{"id" : "firestone", "count" : 10},
-	//{"id" : "flying_eye", "count" : 10},
-	//{"id" : "flying_letter", "count" : 10},
-	//{"id" : "guubdon", "count" : 10},
-	//{"id" : "jellyfish", "count" : 10},
-	//{"id" : "rubiks_cube", "count" : 10},
-	//{"id" : "skating_bush", "count" : 10},
-	//{"id" : "skating_penguin", "count" : 10},
-	//{"id" : "spike_dog", "count" : 10},
-	//{"id" : "worm", "count" : 10},
+    {"id" : "worm", "count" : 10},
+    {"id" : "alien_goomba", "count" : 10},
+    {"id" : "brown_square", "count" : 10},
+    {"id" : "fire_ball_canon", "count" : 10},
+    {"id" : "firestone", "count" : 10},
+    {"id" : "flying_eye", "count" : 10},
+    {"id" : "flying_letter", "count" : 10},
+    {"id" : "guubdon", "count" : 10},
+    {"id" : "jellyfish", "count" : 10},
+    {"id" : "rubiks_cube", "count" : 10},
+    {"id" : "skating_bush", "count" : 10},
+    {"id" : "skating_penguin", "count" : 10},
+    {"id" : "spike_dog", "count" : 10}
   ],
 
   "collectibles" : [
-    //{"id" : "apple_red", "count" : 30}
-    //{"id" : "apple_green", "count" : 30}
-    //{"id" : "fire_flower", "count" : 30}
-    //{"id" : "ice_flower", "count" : 30}
+    {"id" : "apple_red", "count" : 30},
+    {"id" : "apple_green", "count" : 30},
+    {"id" : "fire_flower", "count" : 30},
+    {"id" : "ice_flower", "count" : 30},
+    {"id" : "rocket_shoe", "count" : 30},
+    {"id" : "heart", "count" : 30}
   ],
 
   "back_ground_objects" : [
-    //{"id" : "cloud1", "count" : 10},
-	//{"id" : "cloud2", "count" : 10},
-	//{"id" : "cloud3", "count" : 10},
-    //{"id" : "volcano_blue", "count" : 1},
-	//{"id" : "volcano_red", "count" : 1}
+    {"id" : "cloud1", "count" : 10},
+	{"id" : "cloud2", "count" : 10},
+	{"id" : "cloud3", "count" : 10},
+    {"id" : "volcano_blue", "count" : 1},
+	{"id" : "volcano_red", "count" : 1},
+	{"id" : "bush", "count" : 10}
   ],
 
   "platforms":[
-    //{"id" : "platform", "count" : 50},
-	//{"id" : "standard_moving_horizontally", "count" : 30},
-	//{"id" : "standard_moving_vertically", "count" : 20},
+    {"id" : "platform", "count" : 100},
+	{"id" : "standard_moving_horizontally", "count" : 100},
+	{"id" : "standard_moving_vertically", "count" : 100}
   ],
-
-
-  //"bg_colour" : [220, 220, 255],
 
   "goal" : {
     "graphics" : {
@@ -68,8 +69,8 @@
     "gap_width" : 100,
     "friction" : 0.8,
     "graphics" : {
-      //"id" : "simple_floor",
-      "width" : 500,
+      "id" : "platform",
+      "width" : 5000,
       "height" : 15
     }
   }

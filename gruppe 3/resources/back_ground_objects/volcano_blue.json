@@ -1,8 +1,8 @@
 {
     "graphics" : {
         "id" : "volcano_blue",
-        "width" : 100,
-        "height" : 200
+        "width" : 400,
+        "height" : 800
     },
 
     "y_range" : [100, 100],

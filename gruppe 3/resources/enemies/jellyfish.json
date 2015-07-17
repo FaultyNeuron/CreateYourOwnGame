@@ -9,15 +9,16 @@
     "hp" : 1,
     "damage" : 1,
     "walking_speed" : 0,
-    "jump_power" : 0,
+    "flying_speed" : 0.1,
+    "gravity_factor" : 0,
+    "jump_power" : 3,
     "jump_pause" : 0,
-	"flying_speed" : 5,
-	"drop" : [
+    "drop" : [
         {"id" : "apple_red", "probability" : 7},
         {"id" : "apple_green", "probability" : 7},
         {"id" : "heart", "probability" : 4},
         {"id" : "fire_flower", "probability" : 1},
         {"id" : "ice_flower", "probability" : 1},
-        {"id" : "rocket_shoe", "probability" : 1},
+        {"id" : "rocket_shoe", "probability" : 1}
     ]
 }

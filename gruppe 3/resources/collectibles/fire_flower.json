@@ -1,12 +1,27 @@
 {
     "graphics": {
-        "id": "heart",
+        "id": "fire_flower",
         "width" : 30,
         "height" : 30
     },
-    "gravity_factor" : 0.5,
-    "bounciness" : 0.8,
+    "bounciness" : 0.5,
+    "effect_duration" : 1250,
     "effects" : [
-        {"id":"hp", "value" : 1}
+        {"id":"gun", "projectile":{
+            "graphics": {
+                "id": "fireball",
+                "width" : 20,
+                "height" : 20
+            },
+            "bounciness" : 1,
+            "friction_coefficient" : 0,
+            "cool_down" : 20,
+            "shooting_x" : 4,
+            "shooting_y" : 4,
+            "effect_duration" : 500,
+            "effects" : [
+                {"id":"hp", "value" : -1}
+            ]
+        }}
     ]
 }

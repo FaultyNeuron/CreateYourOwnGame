@@ -9,22 +9,19 @@
     "effects" : [
         {"id":"gun", "projectile":{
             "graphics": {
-                //"id": "ice_ball",
-                "width" : 30,
-                "height" : 30
+                "id": "ice",
+                "width" : 20,
+                "height" : 20
             },
             "bounciness" : 1,
             "friction_coefficient" : 0,
-            "cool_down" : 30,
-            "shooting_x" : 2,
-            "shooting_y" : 3,
-            "effect_duration" : 300,
+            "cool_down" : 20,
+            "shooting_x" : 4,
+            "shooting_y" : 4,
+            "effect_duration" : 500,
             "effects" : [
-//                {"id":"speed", "factor" : 0.25}
-                {"id":"slow_motion", "factor" : 0.5}
+                {"id":"slow_motion", "factor" : 0.1}
             ]
         }}
-//        {"id":"speed", "factor" : 4},
-//        {"id":"gravity", "factor" : 0.1}
     ]
 }

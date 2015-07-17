@@ -5,11 +5,11 @@
         "id" : "fire_ball_canon",
         //"line_colour" : [0, 0, 0],
         //"bg_colour" : [64, 179, 118],
-        "width" : 60,
-        "height" : 42
+        "width" : 100,
+        "height" : 60
     },
-    "hp" : 1,
-    "damage" : 1,
+    "hp" : 10,
+    "damage" : 0,
     "walking_speed" : 0,
     "jump_power" : 0,
     "jump_pause" : 0,
@@ -19,6 +19,27 @@
         {"id" : "heart", "probability" : 4},
         {"id" : "fire_flower", "probability" : 1},
         {"id" : "ice_flower", "probability" : 1},
-        {"id" : "rocket_shoe", "probability" : 1},
+        {"id" : "rocket_shoe", "probability" : 1}
+    ],
+
+    "active_effects" : [
+        {"id":"gun", "projectile":{
+            "graphics": {
+                "id": "fireball",
+                "width" : 30,
+                "height" : 30
+            },
+            "bounciness" : 0.5,
+            "friction_coefficient" : 0,
+            "cool_down" : 80,
+            "shooting_x" : 4,
+            "shooting_y" : -4,
+            //            "effect_duration" : 300,
+            "gravity_factor" : 0.4,
+            "effects" : [
+                //                {"id":"speed", "factor" : 0.25}
+                {"id":"hp", "value" : -1}
+            ]
+        }}
     ]
 }

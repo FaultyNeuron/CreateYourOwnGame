@@ -5,12 +5,12 @@
         "id" : "guubdon",
         //"line_colour" : [0, 0, 0],
         //"bg_colour" : [64, 179, 118],
-        "width" : 50,
-        "height" : 50
+        "width" : 100,
+        "height" : 150
     },
-    "hp" : 1,
+    "hp" : 5,
     "damage" : 1,
-    "walking_speed" : 3,
+    "walking_speed" : 2,
     "jump_power" : 0,
     "jump_pause" : 0,
     "drop" : [
@@ -19,6 +19,6 @@
         {"id" : "heart", "probability" : 4},
         {"id" : "fire_flower", "probability" : 1},
         {"id" : "ice_flower", "probability" : 1},
-        {"id" : "rocket_shoe", "probability" : 1},
+        {"id" : "rocket_shoe", "probability" : 1}
     ]
 }

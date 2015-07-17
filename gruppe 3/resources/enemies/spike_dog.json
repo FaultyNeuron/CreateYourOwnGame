@@ -3,14 +3,14 @@
         "id" : "spike_dog",
         //"line_colour" : [0, 0, 0],
         //"bg_colour" : [64, 179, 118],
-        "width" : 50,
-        "height" : 50
+        "width" : 80,
+        "height" : 30
     },
     "hp" : 4,
     "damage" : 1,
-    "walking_speed" : 0.5,
+    "walking_speed" : 2,
     "flying_speed" : 0,
-    "gravity_factor" : 0,
+    "gravity_factor" : 1,
     "jump_power" : 0,
     "jump_pause" : 0,
     "drop" : [
@@ -19,6 +19,6 @@
         {"id" : "heart", "probability" : 4},
         {"id" : "fire_flower", "probability" : 1},
         {"id" : "ice_flower", "probability" : 1},
-        {"id" : "rocket_shoe", "probability" : 1},
+        {"id" : "rocket_shoe", "probability" : 1}
     ]
 }

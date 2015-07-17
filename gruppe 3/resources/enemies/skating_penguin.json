@@ -8,7 +8,7 @@
     },
     "hp" : 1,
     "damage" : 1,
-    "walking_speed" : 5,
+    "walking_speed" : 2,
     "flying_speed" : 0,
     "gravity_factor" : 1,
     "jump_power" : 0,
@@ -19,6 +19,6 @@
         {"id" : "heart", "probability" : 4},
         {"id" : "fire_flower", "probability" : 1},
         {"id" : "ice_flower", "probability" : 1},
-        {"id" : "rocket_shoe", "probability" : 1},
+        {"id" : "rocket_shoe", "probability" : 1}
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "fps" : 10,
+    "fps" : 7,
     "file_type" : "png",
-    "loop_type" : "START_OVER"
+    "loop_type" : "BACK_AND_FORTH"
 }
